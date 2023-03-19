@@ -1,0 +1,181 @@
+@import url("https://use.typekit.net/fev6axe.css");
+*{
+	box-sizing: border-box;
+	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.cont-header{
+	background: #222222;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 99;
+}
+.cont-header header{
+	max-width: 1100px;
+	margin:	auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 20px;
+}
+.cont-header header .logo a{
+	font-family: "bebas-kai", sans-serif;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+}
+.cont-header header ul{
+	display: flex;
+	list-style: none;
+}
+.cont-header header nav ul li a{
+	text-align: none;
+	color:white;
+	margin: 0 20px;
+	padding: 3px;
+	transition: .5s;
+	text-decoration: none;
+}
+.cont-header header nav ul li a:hover{
+	color: grey;
+}
+.nav-responsive {
+	background-color: grey;
+	padding:4px 8px;
+	border-radius: 5px;
+	cursor:pointer;
+	display: none;
+}
+.HOME{
+	background: linear-gradient(to top, rgba(30,35,38,.8),rgba(30,35,38,1)),url(Images/MachuPicchu.jpg);
+	background-size: cover;
+	height: 100vh;
+	color:#fff;
+	display: flex;
+	align-items: center;
+}
+.HOME .Banner-content{
+	padding:20px;
+	background-color: #222222;
+	max-width: 350px;
+	margin: auto;
+	text-align: center;
+	border-radius: 40px;
+}
+.HOME .Banner-content img{
+	margin-top: 40px;
+	border:10px solid white;
+	display: block;
+	width: 80%;
+	margin:auto;
+	border-radius: 100%;
+}
+.HOME .Banner-content h1{
+	margin-top: 40px;
+	font-size: 42px;
+	font-family: "bebas-kai"
+}
+.HOME .Banner-content h2{
+	font-size: 20px;
+	font-weight: normal;
+}
+.HOME .Banner-content .SocialNetworks a{
+	color:white;
+	display:inline-block;
+	text-decoration: none;
+	border:1px solid white;
+	border-radius: 100%;
+	width: 42px;
+	height: 42px;
+	line-height: 42px;
+	margin: 40px 5px;
+	font-size: 20px;
+	transition: .3s;
+}
+.AboutMe{
+	background-color: #313131;
+	color:white;
+	padding: 50px 20px;
+
+}
+.AboutMe .Content-Section{
+	max-width: 1100px;
+	margin: auto;
+}
+.AboutMe h2{
+	font-size: 48px;
+	font-family: "bebas-kai";
+	text-align:center;
+	padding: 20px 0;
+}
+.AboutMe .Content-Section p{
+	font-size: 20px;
+	line-height: 22px;
+	margin-bottom: 20px;
+}
+.AboutMe .Content-Section p span{
+	color: grey;
+	font-weight: bold;
+}
+.AboutMe .line{
+	display: flex;
+}
+.AboutMe .line .col{
+	width: 50%;
+}
+.AboutMe .line .col h3{
+	font-size: 28px;
+	font-family: 'Sofia Sans Extra Condensed', sans-serif;
+	margin-bottom: 25px;
+}
+.AboutMe .line .col ul{
+	list-style: none;
+}
+.AboutMe .line .col li{
+	font-size: 18px;
+	margin:12px 0;
+}
+.AboutMe .line .col ul li strong{
+	font-size: 18px;
+	display: inline-block;
+	color:white;
+	width: 130px;
+}
+.Portfolio{
+	background-color: #222222;
+	color:white;
+	padding: 50px 20px;
+
+}
+.Portfolio .Content-Section{
+	max-width: 1100px;
+	margin: auto;
+}
+.Portfolio h2{
+	font-size: 48px;
+	font-family: "bebas-kai";
+	text-align:center;
+	padding: 20px 0;
+}
+.Portfolio .Galeria{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.Portfolio .Galeria .Proyecto{
+	position: relative;
+	max-width: 340px;
+	height: fit-content;
+	margin: 10px;
+	cursor:pointer;
+}
+.Portfolio .Galeria .Proyecto img{
+	width: 100%;
+	display: block;
+}
